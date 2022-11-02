@@ -1,0 +1,25 @@
+.navbar {
+    border: 1px solid black;
+    padding: 10px;
+    background: #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+.navbar--title{
+    font-size: 2rem;
+    cursor: pointer;
+    margin-right: 3rem;
+}
+.navbar--list {
+    display: flex;
+}
+.navbar--list li {
+    margin-right: 2rem;
+    list-style: none;
+    text-decoration: none;
+}
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+}
