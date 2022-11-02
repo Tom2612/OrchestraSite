@@ -10,6 +10,12 @@
     font-size: 2rem;
     cursor: pointer;
     margin-right: 3rem;
+    font-weight: 400;
+}
+.navbar--menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 .navbar--list {
     display: flex;
@@ -22,4 +28,8 @@
 .navbar a {
     color: #fff;
     text-decoration: none;
+}
+.navbar--user {
+    margin-right: 3rem;
+    font-weight: 700;
 }
